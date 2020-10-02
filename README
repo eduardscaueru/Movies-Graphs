@@ -1,0 +1,11 @@
+Scaueru Eduard 313CD
+
+	Crearea grafului - Pentru a crea graful cu toti actorii am salvat numele tutuor actorilor si al filmelor fara dubluri. Apoi, pentru fiecare film am adaugat in graf legaturile dintre actorii filmului respectiv(unul de la celalalt si invers deoarece graful este neorientat).
+
+	Cerinta 1 - Am folosit algoritmul DFS pentru a cauta productia(componenta conexa) cu numarul maxim de actori pe care i-am stocat intr-o matrice pe care ulterior am soratat-o crescator.
+
+	Cerinta 2(*) - Pentru aceasta cerinta am folosit algoritmul lui Dijkstra. In implementarea acestuia am avut nevoie de un MinHeap si de functiile asociate acestuia. Dupa aplicarea algoritmului am creat drumul prin apeluri recursive si am retinut numele si numarul filmelor distincte.
+	
+	Cerinta 3 - In implementarea alogoritmului lui Tarjan am folosit o lista pentru a mentine perechile de actori sortate crescator.
+
+(*) - Singurul test care nu merge este testul 10 si nu inteleg de ce. Am incercat sa fac debug dar a fost in zadar si nu am reusit sa gasesc problema in algoritm.
